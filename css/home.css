@@ -1,0 +1,73 @@
+body {
+    font-size: 0;
+}
+
+.main {
+    margin: auto;
+    width: 80vw;
+    max-width: 1000px;
+}
+
+@media screen and (min-width: 1000px) {
+    .container {
+        display: grid;
+        grid: auto-flow / 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        display: grid;
+        grid: auto-flow / 1fr;
+    }
+}
+
+.blog {
+    margin: 20px 5px;
+    height: 200px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+.blog:hover {
+    border-width: 2px 5px;
+}
+
+.blog-type {
+    font-size: 12px;
+    height: 15%;
+    font-weight: bold;
+}
+
+.world {
+    color: cornflowerblue;
+}
+
+.design {
+    color: cadetblue;
+}
+
+.blog-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.blog-time {
+    font-size: 10px;
+    color: gray;
+}
+
+.blog-breif {
+    font-size: 15px;
+    margin-top: 10px;
+    height: 50%;
+    text-overflow: ellipsis;
+}
+
+.blog-footer {
+    font-size: 15px;
+}
+
+.blog-footer a {
+    color: deepskyblue;
+}
